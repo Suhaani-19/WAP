@@ -7,4 +7,3 @@ fs.writeFile("note123.txt","Writingggg",()=>{console.log("File write")})
 console.log("End")
 
 
-// 
