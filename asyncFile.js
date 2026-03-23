@@ -42,4 +42,5 @@ fs.writeFile("note123.txt", "Writingggg\n", (err) => {
     });
 });
 
+
 console.log("End");
