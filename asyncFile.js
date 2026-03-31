@@ -49,7 +49,6 @@ fs.writeFile("note123.txt", "Writingggg\n", (err) => {
                 console.log("Updated file content:");
                 console.log(data);
 
-                // delete file (cleanup)
                 fs.unlink("note123.txt", (err) => {
                     if (err) {
                         console.log("Error deleting file:", err);
